@@ -1,6 +1,6 @@
 # Add SSH key :
 	- check if there is already existed SSH key,if existed,copy and make backup
-		*cd ~/.ssh    ls -al*
+		*cd* ~/.ssh    ls -al
 	- if not exist,create SSH key 
 		*ssh-keygen -t rsa -C "xxxxx@qq.com"*
 	- copy the id_rsa.pub to setting
